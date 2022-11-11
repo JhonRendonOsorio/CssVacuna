@@ -349,24 +349,10 @@ a{
 }
 
 
-.contenedor3{
-    
-    padding: 40px 40px;
-    margin-top: 700px;
-    background-image: url(https://gravstudio.com/wp-content/uploads/2019/05/entrada-23-b.gif);
-    filter:alpha(opacity=10);
-
-    -moz-opacity:.30;opacity:.30;
-    background-position: initial center;
-    background-size: cover;
-    background-size: 40%;
-    background-repeat: repeat-x;
-   
-}
 
 .imagen{
     float: right;
-    background-image: url(https://images.pexels.com/photos/5214949/pexels-photo-5214949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(./image/nurse2.png);
     height: auto;
     width: 50%;
     background-size: cover;
@@ -383,7 +369,7 @@ a{
     margin-top: 50px;
     padding: 50px 50px;
     
-    background-image: url(../images/footer.png);
+    background-image: url(./image/footer.png);
     filter:alpha(opacity=10);
 
     
@@ -451,18 +437,20 @@ a{
 .contcont{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 100%;
     
 }
 .contcuadros {
+    margin-top: 5%;
     margin-left: 100px;
     margin-right: 100px;
-    width: 100%;
-    background-color: black;
+    max-width: max-content;
+  
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 350px;
+    height: 300px;
     
 }
 
@@ -477,10 +465,13 @@ a{
      margin: 0 auto;
      background: var(--card-color);
      color:rgb(255, 255, 255);
-     width: 200px;
-     height: 250px;
+     max-width: auto;
+     min-width: min-content;
+     max-height: auto;
+     min-height: 90%;
      padding: 20px;
      border-radius: 8px;  
+     
           
  }
 
@@ -619,7 +610,7 @@ a{
     
     width: 50%;
     height: 600px;
-    background-image: url(https://www.pngall.com/wp-content/uploads/2016/06/Nurse-PNG-Picture.png);
+    background-image: url(./image/nurse3.png);
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -721,7 +712,7 @@ a{
     
     font-size: 50px;
     color: #232b68;
-    margin-left: 100px;
+    margin-left: 60px;
 
 }
 .tria35{ 
@@ -743,7 +734,7 @@ a{
     
     font-size: 150%;
     color: #484b6396;
-    margin-left: 100px;
+    margin-left: 60px;
     width: 540px;
     
     
@@ -757,8 +748,10 @@ a{
     height: 450px;
     
     
+    
 }
 .contcuadros5 {
+    
     display: flex;
     flex-direction: row;
     
@@ -767,6 +760,7 @@ a{
     
 }
 .contcuadros56 {
+   
     display: flex;
     flex-direction: row;
     
@@ -892,7 +886,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
   
-    height: 450px
+    height: auto
     ;
     
  }
