@@ -1,10 +1,8 @@
 
 a:link, a:visited,a:active{
     text-decoration: none;
-    
 }
 *{
-    
     color: #484b6396;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -20,13 +18,11 @@ a:link, a:visited,a:active{
 .menu1{
     background-color: white;
     float: left;
-    
     width: 51%;
     height: auto;
 
 }
 .menu2{
-    
     display: flex;
     flex-direction: row;
     float: right;
@@ -38,7 +34,6 @@ a:link, a:visited,a:active{
     background-color: white;
     color: blue;
     object-position: left;
-    
     float: left;
     padding: 45px 60px;
     font-size: 35px;
@@ -57,32 +52,23 @@ a:link, a:visited,a:active{
     color: #484b6396;
     height: auto;
     background-color: aliceblue;
-    
     padding: 52px 35px;
     font-size:large;
     font-size: 20px;
-    
-    
 }
 .news{
     color: #484b6396;
-    
     background-color: aliceblue;
-    
     padding: 52px 35px;
     font-size:large;
     font-size: 20px;
-    
 }
 .regulation{
     color: #484b6396;
-    
     background-color: aliceblue;
-    
     padding: 52px 35px;
     font-size:large;
     font-size: 20px;
-    
 }
 .hoax{
     background-color: #3945f1;
@@ -98,16 +84,10 @@ a:link, a:visited,a:active{
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
     box-shadow: 0px 3px 3px  rgba(48, 57, 87, 0.274);
-
 }
-
 .contebody{
     display: flex;
     flex-direction: row;
-    
-    
-    
-    
 }
 .tria1{
     width: 0;
@@ -117,25 +97,16 @@ a:link, a:visited,a:active{
     border-top: 90px solid rgba(113, 158, 255, 0.267);
     margin-left: 45px;
     margin-top: 0px;
-    
-    
-
 }
-
 .text{
     display: flex;
     flex-wrap: wrap;
     flex-shrink: 0;
     background-color: white;
-    
     float: left;
-   
     height: auto;
     width: 50%;
-
-    
 }
-
 .titulo{
     margin-left: 100px;
     color: #232b68;
@@ -143,13 +114,9 @@ a:link, a:visited,a:active{
     margin-right: 150px;
     margin-top: 0%;
 }
-
 .continfo{
-    
     display: flex;
     justify-content: space-between;
-    
-    
     margin-top: -80px;    
     float: left;
     height: auto;
@@ -157,14 +124,11 @@ a:link, a:visited,a:active{
 }
 
 .info{
-    
     font-size: 150%;
     color: #484b6396;
     margin-left: 100px;
     margin-right: 50px;
-    
 }
-
 .tria2{
     width: 0;
     height: 0;
@@ -172,47 +136,35 @@ a:link, a:visited,a:active{
     border-top: 80px solid transparent;
     border-right: 110px solid rgba(113, 158, 255, 0.267);
     border-bottom: 80px solid transparent;
-   
-    
-   
 }
 .conticon{
     display: flex;
     align-items: center;
-    
-  
     margin-top: auto;    
     float: left;
-      
     height: auto;
     width: 100%;
 }
-
 .escudo{
     display: flex;
     flex-direction: row;
-    
     height: auto;
     width: 50%;
 }
-
 .icono1{
     font-size: 4rem;
     margin-right: var(--mb-2);
     color: var(--first-color);
-    
     flex-wrap: wrap;
     min-height: 25px;
     width: 25px;
     background-image: url(https://www.hsi.es/wp-content/uploads/2020/04/8.png);
     margin-left: 100px;
     background-size: 100%;
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
 }
-
 .seguridad{
     font-size: 20px;
     display: flex;
@@ -223,7 +175,6 @@ a:link, a:visited,a:active{
 .selec{
     display: flex;
     flex-direction: row;
-    
     height: auto;
     width: 50%;
 }
@@ -231,14 +182,11 @@ a:link, a:visited,a:active{
     font-size: 4rem;
     margin-right: var(--mb-2);
     color: var(--first-color);
-    
     flex-wrap: wrap;
     min-height: 25px;
     width: 25px;
     background-image: url(https://cdn-icons-png.flaticon.com/512/3388/3388607.png);
-    
     background-size: 100%;
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
@@ -250,20 +198,16 @@ a:link, a:visited,a:active{
     justify-content: left;
     color: #484b6396;
 }
-
 .icono2{
     margin-left: 50px;
     font-size: 4rem;
     margin-right: var(--mb-2);
     color: var(--first-color);
-    
     flex-wrap: wrap;
     min-height: 25px;
     width: 25px;
     background-image: url(https://cdn-icons-png.flaticon.com/512/3388/3388607.png);
-    
     background-size: 100%;
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
@@ -275,12 +219,9 @@ a:link, a:visited,a:active{
     justify-content: left;
     color: #484b6396;
 }
-
 .ventana{
-    
     width: 700px;
     font-size: 150%;
-    
     margin-left: 100px; 
     display: flex;
     justify-content: space-around;
@@ -293,8 +234,7 @@ a:link, a:visited,a:active{
     border-radius: 10px;
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
-  .modal{
-    
+.modal{
     position:top;
     top:-250px;
     right:0;
@@ -303,20 +243,19 @@ a:link, a:visited,a:active{
     opacity:0;
     pointer-events:none;
     transition: all 1s;
-  }
-  #IrVentanaFlotante:target{
+}
+#IrVentanaFlotante:target{
     opacity:1;
     pointer-events:auto;
-  }
-  .float{
+}
+.float{
     margin-top: 10%;
     margin-left: 100px;
     font-size: 150%;
     color: #232b68;
     box-shadow:  2px 2px  rgba(48, 57, 87, 0.068);
-
-  }
-  label {
+}
+label {
     display: block;
     font: 1rem 'Fira Sans', sans-serif;
 }
@@ -326,8 +265,6 @@ a{
 .x{
     color: black;
 }
-
-
 .boton2{
     text-align: right;
     object-position: right;
@@ -338,18 +275,13 @@ a{
     font-size:large;
     margin-right: 90px;
     margin-top: 30px;
-    
     padding: 10px; /*espacio alrededor texto*/
     background-color: #3945f1; /*color botón*/
-    
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
     border-radius: 8px; /*bordes redondos*/
 }
-
-
-
 .imagen{
     float: right;
     background-image: url(./image/nurse2.png);
@@ -360,60 +292,38 @@ a{
     background-position:center center;
     color: aliceblue;
 }
-
-
-
-
-
 .footer{
     margin-top: 50px;
     padding: 50px 50px;
-    
     background-image: url(./image/footer.png);
     filter:alpha(opacity=10);
-
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
-   
 }
-
-
 .contenedor{
-    
     display: flex;
     flex-wrap: wrap;
 }
 .conthead{
-    
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    
-    
 }
 .conttitulo{
     width: 100%;
-    
     display: flex;
     flex-direction: row;
     align-items: center;
-    
-    
-    
 }
 .titulo2{
     margin-top: 30px;
     width: 100%;
-    
     font-size: 50px;
     color: #232b68;
     margin-left: 100px;
-
 }
 .tria3{ 
-    
     margin-top: 30px;
     float: right;
     width: 0;
@@ -422,221 +332,150 @@ a{
     border-top: 80px solid transparent;
     border-right: 110px solid rgba(113, 158, 255, 0.267);
     border-bottom: 80px solid transparent;
-   
-    
-   
 }
 .info2{
     width: 100%;
-    
     font-size: 150%;
     color: #484b6396;
     margin-left: 100px;
-    
 }
 .contcont{
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    
 }
 .contcuadros {
     margin-top: 5%;
     margin-left: 100px;
     margin-right: 100px;
     max-width: max-content;
-  
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
-    
 }
-
 :root{
     --card-color: rgba(255, 255, 255, 0.781);
     --a-color:(#484b6396);
- }
- .card{
+}
+.card{
     display: flex;
     flex-direction: column;
     justify-content: left;
-     margin: 0 auto;
-     background: var(--card-color);
-     color:rgb(255, 255, 255);
-     max-width: auto;
-     min-width: min-content;
-     max-height: auto;
-     min-height: 90%;
-     padding: 20px;
-     border-radius: 8px;  
-     
-          
- }
-
- h2{
+    margin: 0 auto;
+    background: var(--card-color);
+    color:rgb(255, 255, 255);
+    max-width: auto;
+    min-width: min-content;
+    max-height: auto;
+    min-height: 90%;
+    padding: 20px;
+    border-radius: 8px;  
+}
+h2{
     color: #232b68;
- }
+}
  .card:hover{
-    
     color: var(--card-body-color);
     background:aliceblue;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
     border-radius: 20px;   
 }
- .card-header1{
-    
-   
+.card-header1{
     background-image: url(https://www.wayne-local.com/pages/district-news/image/section-image/virus_coronavirus_covid_covid_icon_134829-3319.png);
-     background-size: 50px; 
-     background-repeat: no-repeat;        
-     width: 25px;
-     height: 25px;
-     padding: 12px 12px;
-     border-radius: 8px 8px 8px 8px;
-     
- }
- .card-header2{
-    
-    
+    background-size: 50px; 
+    background-repeat: no-repeat;        
+    width: 25px;
+    height: 25px;
+    padding: 12px 12px;
+    border-radius: 8px 8px 8px 8px;
+}
+.card-header2{
     background-image: url(https://cdn-icons-png.flaticon.com/512/7487/7487617.png);
-     background-size: 50px; 
-     background-repeat: no-repeat;        
-     width: 25px;
-     height: 25px;
-     padding: 12px 12px;
-     border-radius: 8px 8px 8px 8px;
-     
- }
- .card-header3{
-    
-    
+    background-size: 50px; 
+    background-repeat: no-repeat;        
+    width: 25px;
+    height: 25px;
+    padding: 12px 12px;
+    border-radius: 8px 8px 8px 8px;
+}
+.card-header3{
     background-image: url(https://cdn-icons-png.flaticon.com/512/7605/7605710.png);
-     background-size: 50px; 
-     background-repeat: no-repeat;        
-     width: 25px;
-     height: 25px;
-     padding: 12px 12px;
-     border-radius: 8px 8px 8px 8px;
-     
- }
- .card-header4{
-    
-    
+    background-size: 50px; 
+    background-repeat: no-repeat;        
+    width: 25px;
+    height: 25px;
+    padding: 12px 12px;
+    border-radius: 8px 8px 8px 8px;
+}
+.card-header4{
     background-image: url(https://cdn-icons-png.flaticon.com/512/8292/8292849.png);
-     background-size: 50px; 
-     background-repeat: no-repeat;        
-     width: 25px;
-     height: 25px;
-     padding: 12px 12px;
-     border-radius: 8px 8px 8px 8px;
-     
- }
- .card-body{
-    
-     background: var(--card-body-color);
-     margin: -20px;
-     padding: 20px;
-     border-radius: 00px 00px 20px 20px;
- }
-
-
- 
- 
-
-
-
-
+    background-size: 50px; 
+    background-repeat: no-repeat;        
+    width: 25px;
+    height: 25px;
+    padding: 12px 12px;
+    border-radius: 8px 8px 8px 8px;
+}
+.card-body{
+    background: var(--card-body-color);
+    margin: -20px;
+    padding: 20px;
+    border-radius: 00px 00px 20px 20px;
+}
 .contbody{
-    
-    
     display: flex;
     flex-wrap: wrap;
-   
     width: 100%;
-    
-    
 }
 .conttitulo1{
-    
     display: flex;
     justify-content: center;
-    
     width: 100%;
-    
-    
-    
-    
-    
 }
 .titulo3{
-    
-    
     margin-right: 100px;
     margin-top: 30px;
-    
-    
     font-size: 50px;
     color: #232b68;
-    
 }
 .tria4{ 
-    
-    
     width: 45%;
     height: 0;
     border-top: 80px solid transparent;
     border-left: 110px solid rgba(113, 158, 255, 0.267);
     border-bottom: 80px solid transparent;
-    
-   
-    
-   
 }
 .info3{
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
-    
     font-size: 140%;
     color: #484b6396;
     margin-right: 120px;
-    
-    
 }
-
 .contmujer{
-    
     width: 50%;
     height: 600px;
     background-image: url(./image/nurse3.png);
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
 }
-
 .contpestañas{
     width: 50%;
-    
-    
-    
 }
 .nose{
     display: flex;
     flex-wrap: wrap;
     width: 70%;
     height: 90%;
-   
     margin-top: 6%;
     margin-left: 10%;
     margin-right: 10%;
-    
-    
 }
 .accordion {
-    
     font-size: 120%;
     cursor: pointer;
     padding: 18px;
@@ -647,76 +486,49 @@ a{
     border: none;
     outline: none;
     transition: 0.4s;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
+}
+.active, .accordion:hover {
     background-color: aliceblue;
-  }
-  
-  /* Style the accordion panel. Note: hidden by default */
-  .panel {
+}
+.panel {
     padding: 0 18px;
-    
     display: none;
     text-shadow: 5px 5px 5px rgba(4, 0, 245, 0.13);
     overflow: hidden;
-    
-  }
-  
-  .accordion:after {
-  content: '\▼'; /* Unicode character for "plus" sign (+) */
+}
+.accordion:after {
+  content: '\▼'; 
   font-size: 13px;
-  
   color: #777;
   float: right;
   margin-left: 5px;
 }
-
 .active:after {
-  content: "\▲"; /* Unicode character for "minus" sign (-) */
+    content: "\▲"; 
 }
-
-
-
-
-
-
-
 .contenedor5{
-    
     display: flex;
     flex-wrap: wrap;
 }
 .conthead5{
-    
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    
-    
 }
 .conttitulo5{
     width: 100%;
-    
     display: flex;
     flex-direction: row;
     align-items: center;
-    
-    
-    
 }
 .titulo25{
     margin-top: 30px;
     width: 100%;
-    
     font-size: 50px;
     color: #232b68;
     margin-left: 60px;
-
 }
 .tria35{ 
-    
     margin-top: 30px;
     float: right;
     width: 0;
@@ -725,140 +537,91 @@ a{
     border-top: 80px solid transparent;
     border-right: 110px solid rgba(113, 158, 255, 0.267);
     border-bottom: 80px solid transparent;
-   
-    
-   
 }
 .info25{
-    
-    
     font-size: 150%;
     color: #484b6396;
     margin-left: 60px;
     width: 540px;
-    
-    
 }
-
 .contcont5{
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     width: 50%;
     height: 450px;
-    
-    
-    
 }
 .contcuadros5 {
-    
     display: flex;
     flex-direction: row;
-    
     width: 100%;
-    
-    
 }
 .contcuadros56 {
-   
     display: flex;
     flex-direction: row;
-    
     width: 100%;
 }
-
-
 .card5{
     display: flex;
     flex-wrap: wrap;
-    
     align-items: center ;
-     margin: 0 auto;
-     
-     color:rgb(255, 255, 255);
-     width: 200px;
-     height: 100px;
-     padding: 20px;
-     border-radius: 8px;  
-          
- }
-
- 
- .card5:hover{
-    
-    
+    margin: 0 auto;
+    color:rgb(255, 255, 255);
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 8px;  
+}
+.card5:hover{
     background:aliceblue;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
     border-radius: 20px;   
 }
- .card-header11{
-   
-   
-    background-image: url(https://cdn-icons-png.flaticon.com/512/6689/6689905.png);
-     background-size: 40px; 
-     background-repeat: no-repeat;        
-     width: 45px;
-     height: 25px;
-     padding: 8px 8px;
-     border-radius: 8px 8px 8px 8px;
-   
-     
+.card-header11{
+   background-image: url(https://cdn-icons-png.flaticon.com/512/6689/6689905.png);
+    background-size: 40px; 
+    background-repeat: no-repeat;        
+    width: 45px;
+    height: 25px;
+    padding: 8px 8px;
+    border-radius: 8px 8px 8px 8px;
 }
-
-
- .card-footer{
+.card-footer{
     text-align: center;
     margin-top: -10px;
-    
     width: 90%;
-     background-color: aliceblue;
-     padding: 8px 8px;
-     border-radius: 8px 8px 8px 8px;
-     color: white;
-    
+    background-color: aliceblue;
+    padding: 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+    color: white;
 }
-
 .card-footer:hover{
-    
-    
     background-color: white;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
     border-radius: 8px;   
-    
 }
-
 .azul{
     color: #0f1b75;
 }
-
-
-
- .card-header22{
-    
-  
+.card-header22{
     background-image: url(https://cdn-icons-png.flaticon.com/512/6874/6874378.png);
     background-size: 40px; 
-     background-repeat: no-repeat;        
-     width: 45px;
-     height: 25px;
-     padding: 8px 8px;
-     border-radius: 8px 8px 8px 8px;
- }
- .card-header33{
-    
-    
+    background-repeat: no-repeat;        
+    width: 45px;
+    height: 25px;
+    padding: 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+}
+.card-header33{
     background-image: url(https://cdn-icons-png.flaticon.com/512/715/715352.png);
     background-size: 40px; 
-     background-repeat: no-repeat;        
-     width: 45px;
-     height: 25px;
-     padding: 8px 8px;
-     border-radius: 8px 8px 8px 8px;
-     
- }
+    background-repeat: no-repeat;        
+    width: 45px;
+    height: 25px;
+    padding: 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+}
  .card-header44{
-    
-    
     background-image: url(https://cdn-icons-png.flaticon.com/512/1932/1932875.png);
     background-size: 40px; 
     background-repeat: no-repeat;        
@@ -866,73 +629,47 @@ a{
     height: 25px;
     padding: 8px 8px;
     border-radius: 8px 8px 8px 8px;
-     
- }
- .card-body{
-    
-  
-     margin: -20px;
-     padding: 20px;
-     border-radius: 00px 00px 20px 20px;
- }
-
-
- .conthombre{
-    
+}
+.card-body{
+    margin: -20px;
+    padding: 20px;
+    border-radius: 00px 00px 20px 20px;
+}
+.conthombre{
     background-image: url(../csspractica/image/hombre.png );
     width: 50%;
-    
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-  
-    height: auto
-    ;
-    
- }
-
-
+    height: auto;
+}
 .footer2{
     width: 95%;
     height: 200px;
     display: flex;
     flex-wrap: wrap;
-    
 }
-
 .footerva{
     display: flex;
     align-items: center;
     justify-content: baseline;
     width: 50%;
     height: 100%;
-    
 }
 .contfooterva{
     margin-left: 100px;
-   
 }
 .footerpa{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    
-    
-    width: 50%;
+     width: 50%;
     height: 100%;
-    
 }
 .contfooterva{
     color: #0f1b75;
-    
 }
 .about{
-    color: #0f1b75;
-}
-.company{
-    color: #0f1b75;
-}
-.suport{
     color: #0f1b75;
 }
