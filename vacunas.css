@@ -48,6 +48,11 @@ a:link, a:visited,a:active{
     font-size:large;
     font-size: 20px;
 }
+.base:hover{
+    background:white;
+    box-shadow: 0px 10px 15px aliceblue;
+    
+}
 .education{
     color: #484b6396;
     height: auto;
@@ -56,6 +61,10 @@ a:link, a:visited,a:active{
     font-size:large;
     font-size: 20px;
 }
+.education:hover{
+    background-color: aliceblue;
+    box-shadow:0px 10px 15px rgba(0, 0, 0, 0.377);
+}
 .news{
     color: #484b6396;
     background-color: aliceblue;
@@ -63,12 +72,20 @@ a:link, a:visited,a:active{
     font-size:large;
     font-size: 20px;
 }
+.news:hover{
+    background-color: aliceblue;
+    box-shadow:0px 10px 15px rgba(0, 0, 0, 0.377);
+}
 .regulation{
     color: #484b6396;
     background-color: aliceblue;
     padding: 52px 35px;
     font-size:large;
     font-size: 20px;
+}
+.regulation:hover{
+    background-color: aliceblue;
+    box-shadow:0px 10px 15px rgba(0, 0, 0, 0.377);
 }
 .hoax{
     background-color: #3945f1;
@@ -80,10 +97,14 @@ a:link, a:visited,a:active{
     border-radius: 8px;
     color: white;
     font-size: large;
-    text-decoration: none; /*decoración texto*/
-    text-transform: uppercase; /*capitalización texto*/
-    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif; 
     box-shadow: 0px 3px 3px  rgba(48, 57, 87, 0.274);
+}
+.hoax:hover{
+    background-color: #3945f1;
+    box-shadow:0px 10px 15px rgba(0, 0, 0, 0.377);
 }
 .contebody{
     display: flex;
@@ -158,7 +179,7 @@ a:link, a:visited,a:active{
     flex-wrap: wrap;
     min-height: 25px;
     width: 25px;
-    background-image: url(https://www.hsi.es/wp-content/uploads/2020/04/8.png);
+    background-image: url(./image/icon1.png);
     margin-left: 100px;
     background-size: 100%;
     background-size: cover;
@@ -178,19 +199,7 @@ a:link, a:visited,a:active{
     height: auto;
     width: 50%;
 }
-.icono2{
-    font-size: 4rem;
-    margin-right: var(--mb-2);
-    color: var(--first-color);
-    flex-wrap: wrap;
-    min-height: 25px;
-    width: 25px;
-    background-image: url(https://cdn-icons-png.flaticon.com/512/3388/3388607.png);
-    background-size: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center center;
-}
+
 .seguridad{
     font-size: 20px;
     display: flex;
@@ -201,12 +210,10 @@ a:link, a:visited,a:active{
 .icono2{
     margin-left: 50px;
     font-size: 4rem;
-    margin-right: var(--mb-2);
-    color: var(--first-color);
     flex-wrap: wrap;
     min-height: 25px;
     width: 25px;
-    background-image: url(https://cdn-icons-png.flaticon.com/512/3388/3388607.png);
+    background-image: url(./image/icon2.png);
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -376,14 +383,14 @@ a{
 h2{
     color: #232b68;
 }
- .card:hover{
+.card:hover{
     color: var(--card-body-color);
     background:aliceblue;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
     border-radius: 20px;   
 }
 .card-header1{
-    background-image: url(https://www.wayne-local.com/pages/district-news/image/section-image/virus_coronavirus_covid_covid_icon_134829-3319.png);
+    background-image: url(./image/head1.png);
     background-size: 50px; 
     background-repeat: no-repeat;        
     width: 25px;
@@ -392,7 +399,7 @@ h2{
     border-radius: 8px 8px 8px 8px;
 }
 .card-header2{
-    background-image: url(https://cdn-icons-png.flaticon.com/512/7487/7487617.png);
+    background-image: url(./image/head2.png);
     background-size: 50px; 
     background-repeat: no-repeat;        
     width: 25px;
@@ -401,7 +408,7 @@ h2{
     border-radius: 8px 8px 8px 8px;
 }
 .card-header3{
-    background-image: url(https://cdn-icons-png.flaticon.com/512/7605/7605710.png);
+    background-image: url(./image/head3.png);
     background-size: 50px; 
     background-repeat: no-repeat;        
     width: 25px;
@@ -410,7 +417,7 @@ h2{
     border-radius: 8px 8px 8px 8px;
 }
 .card-header4{
-    background-image: url(https://cdn-icons-png.flaticon.com/512/8292/8292849.png);
+    background-image: url(./image/head4.png);
     background-size: 50px; 
     background-repeat: no-repeat;        
     width: 25px;
@@ -578,7 +585,7 @@ h2{
     border-radius: 20px;   
 }
 .card-header11{
-   background-image: url(https://cdn-icons-png.flaticon.com/512/6689/6689905.png);
+   background-image: url(./image/card1.png);
     background-size: 40px; 
     background-repeat: no-repeat;        
     width: 45px;
@@ -604,7 +611,7 @@ h2{
     color: #0f1b75;
 }
 .card-header22{
-    background-image: url(https://cdn-icons-png.flaticon.com/512/6874/6874378.png);
+    background-image: url(./image/card2.png);
     background-size: 40px; 
     background-repeat: no-repeat;        
     width: 45px;
@@ -613,7 +620,7 @@ h2{
     border-radius: 8px 8px 8px 8px;
 }
 .card-header33{
-    background-image: url(https://cdn-icons-png.flaticon.com/512/715/715352.png);
+    background-image: url(./image/card3.png);
     background-size: 40px; 
     background-repeat: no-repeat;        
     width: 45px;
@@ -622,7 +629,7 @@ h2{
     border-radius: 8px 8px 8px 8px;
 }
  .card-header44{
-    background-image: url(https://cdn-icons-png.flaticon.com/512/1932/1932875.png);
+    background-image: url(./image/card4.png);
     background-size: 40px; 
     background-repeat: no-repeat;        
     width: 45px;
