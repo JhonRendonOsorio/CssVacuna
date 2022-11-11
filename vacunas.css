@@ -636,9 +636,8 @@ h2{
     border-radius: 00px 00px 20px 20px;
 }
 .conthombre{
-    background-image: url(../csspractica/image/hombre.png );
+    background-image: url(./image/hombre.png);
     width: 50%;
-    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
