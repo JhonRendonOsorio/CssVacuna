@@ -174,8 +174,6 @@ a:link, a:visited,a:active{
 }
 .icono1{
     font-size: 4rem;
-    margin-right: var(--mb-2);
-    color: var(--first-color);
     flex-wrap: wrap;
     min-height: 25px;
     width: 25px;
@@ -291,12 +289,12 @@ a{
 }
 .imagen{
     float: right;
-    background-image: url(./image/nurse2.png);
+    background-image: url(./image/nathu2.png);
     height: auto;
     width: 50%;
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position:center center;
+    background-size: cover;
+    background-position: top;
     color: aliceblue;
 }
 .footer{
